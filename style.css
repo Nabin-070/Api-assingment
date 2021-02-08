@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+#meal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-top: 60px;
+}
+.meal-name{
+    text-align: center;
+}
+.mealItem{
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px gray;
+    background-color: rgb(223, 227, 228);
+}
+#mealsDetails{
+    max-width: 70%;
+    margin:auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+.meal-img img{
+    width: 100%;
+    display: block;
+}
+#mealsDetails img{
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+}
